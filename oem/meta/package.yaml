@@ -1,0 +1,21 @@
+name: ccimx6sbc
+vendor: Alex Gonzalez <alex.gonzalez@digi.com>
+icon: meta/Digi_logo_REV_2C_RGB.png
+version: 0.1
+type: oem
+
+config:
+  ubuntu-core:
+    hostname: ccimx6sbc
+oem:
+  branding:
+    name: DIGI
+  hardware:
+    platform: ccimx6sbc
+    architecture: armhf
+    partition-layout: system-AB
+    bootloader: u-boot
+    boot-assets:
+      raw-files:
+        - path: boot-assets/u-boot.imx
+          offset: 1024 # 0x400

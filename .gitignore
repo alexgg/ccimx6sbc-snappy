@@ -1,0 +1,13 @@
+u-boot/
+oem/boot-assets/u-boot.imx
+oem/boot-assets/
+*.snap
+*.tar.xz
+linux/
+*.img
+device/assets/
+device/preinstalled.tar.gz
+device/preinstalled/
+device/ramdisk/
+device/system/
+device/initrd/
